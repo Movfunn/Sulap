@@ -75,7 +75,7 @@ di background-image URL --><style>
   var aa=0,spertanyaan;function ngetik() {if(aa<spertanyaan.length){kalimat.innerHTML += spertanyaan.charAt(aa);aa++;setTimeout(ngetik,80);} if(aa==spertanyaan.length){fungsi=1;setTimeout(tombol,300);}}
   var ai=0,skataditerima3;function ngetik2() {if(ai<skataditerima3.length){kalimatc.innerHTML += skataditerima3.charAt(ai);ai++;setTimeout(ngetik2,100);} if(ai==skataditerima3.length){kalimatc.style.animation="rto 1s infinite alternate";setTimeout(stakhir,1000);}}
   function sbakhir(){kalimatc.style = "opacity:1;transform: scale(1);margin-top:30px";Bn.style.display="none";} function stakhir(){tmbl.innerHTML="Kirim Pesan";tmbl.style="font-size:12px";Tombol.style="margin-top:10px;opacity:1;transform: scale(1)";ftom=5;fungsi=0;}
-  async function menuju(){await swals.fire('OK!', 'Kirim pesan ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";} setTimeout(showDiv,100);
+  async function menuju(){await swals.fire('', 'Kirim pesan', 'success');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";} setTimeout(showDiv,100);
   async function jawab(){setInterval(createHeart,200);bodyblur.style="opacity:.5;animation:none";beneranblur.style="-webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px)";wallpaper.style="transform: scale(1)";Tombol.style="opacity:0;transform: scale(.1);";setTimeout(sbakhir,3000);setTimeout(ngetik2,3100);otomatis2();}
 
   flag=1;flagg=1;fungsi=0;
@@ -103,30 +103,30 @@ di background-image URL --><style>
                   });
                   
                   await swalst.fire({
-                    title: 'Jangan pernah takut dengan rasa sakit😊', 
+                    title: 'Jangan pernah takut dengan rasa sakit', 
                     imageUrl: 'https://i.pinimg.com/originals/e7/7f/33/e77f33c70e25065583cf082718880535.gif',
                   });
                   
                   await swalst.fire({
-                    title: 'Cepatlah sembuh dan kembali berbahagia seperti biasanya🤔', 
+                    title: 'Cepatlah sembuh dan kembali berbahagia seperti biasanya', 
                     imageUrl: 'https://i.pinimg.com/originals/30/2c/5b/302c5b91c406974bc3f34285a4e4d0cf.gif',
                   });
                   
                   await swalst.fire({
-                    title: 'Ada orang bodoh yg akan mengawasimu🙄', 
+                    title: 'Ada orang bodoh yg akan mengawasimu', 
                     imageUrl: 'https://cdn.kibrispdr.org/data/1794/shiva-kartun-36.gif',
                   });
                    	
              spertanyaan = "Sekarang sudah baikan Dikit Atau Banyak, Terus Sembuh atau Tidak";
              
-             skataditerima1 = "Simsalabim😎";
-             skataditerima2 = "Wahh!!! Anda telah sembuh Hebat😂 Anda tidak boleh sakit lagi, karna anda punya janji😁";
+             skataditerima1 = "Simsalabim";
+             skataditerima2 = "Wahh!!! Anda telah sembuh Hebat Anda tidak boleh sakit lagi, karna anda punya janji";
              skataditerima3 = "Thanks riyan";
              
              tekstolak1 = "Coba Lagi! ";
              tekstolak2 = "Harus Sembuh Ulang";
    
-             pesanwhatsapp = "Terima kasih><";kpemb();
+             pesanwhatsapp = "Terima kasih";kpemb();
        }
 </script>
 
